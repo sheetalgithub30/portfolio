@@ -12,11 +12,7 @@ function App() {
 
   return (
     <>
-    <div>
     <Sidebar/>
-    </div>
-    <div>
-     <Navbar/>
      <Routes>
         <Route path='/' element={<About/>}></Route>
         <Route path='/certificates' element={<Certificate/>}></Route>
@@ -24,7 +20,6 @@ function App() {
         <Route path='/more' element={<More/>}></Route>
         <Route path='/contact' element={<Contact/>}></Route>
      </Routes>
-     </div>
     </>
   )
 }
