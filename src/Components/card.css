@@ -16,6 +16,6 @@
 }
 
 #card:hover{
-    filter: drop-shadow(1px 1px 10px rgb(248, 248, 86));
+    filter: drop-shadow(1px 1px 5px white);
 
 }

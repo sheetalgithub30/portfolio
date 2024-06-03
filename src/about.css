@@ -22,12 +22,13 @@
 
 #about h1{
     color: rgb(222, 222, 161);
+    filter: drop-shadow(1px 1px 1px yellow);
 }
 
 #about #me{
         background-color: rgb(25, 87, 110);
         padding: 2rem;
-        margin: 1rem;
+        margin: 2rem 1rem;
         border-radius: 40px;
         box-shadow: 1px 1px 10px black;
 }

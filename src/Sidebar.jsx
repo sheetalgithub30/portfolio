@@ -11,7 +11,6 @@ function Sidebar(){
     return(
      <div id="sidebar">
         <div id="top">
-
         <img src="https://pics.craiyon.com/2023-06-17/d6d7c913042d4303abe170f2f1847aef.webp"></img>
         <h2>Sheetal</h2>
         <h3>Hello,World!</h3>
