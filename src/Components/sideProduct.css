@@ -2,7 +2,8 @@
     width: 25rem;
     height: 38rem;
     margin: 1rem;
-    border: 2px solid black;
+    box-shadow: 1px 1px 10px black;
+    background-color: rgb(25, 87, 110);
     padding: 1rem;
 }
 
@@ -16,6 +17,7 @@
     margin: 0.5rem;
     color: rgb(170, 170, 56);
     text-align: center;
+    filter: drop-shadow(1px 1px 2px yellow);
 }
 #sideProduct p{
     opacity: 0.7;
