@@ -1,5 +1,5 @@
 #contact{
-    background-color: rgb(32, 98, 98);
+    background-color: rgb(44, 109, 132);
     border: 1px solid black;
     width: 60vw;
     padding: 1.5rem;
@@ -12,10 +12,11 @@
 
 #contact h1{
     color: rgb(222, 222, 161);
+    filter: drop-shadow(1px 1px 1px yellow);
 }
 
 #email,#video,#socials{
-    border: 1px solid black;
+    background-color: rgb(25, 87, 110);
     margin-top:3rem;
     margin-left: 2rem;
     margin-right: 2rem;
@@ -25,17 +26,21 @@
     flex-direction: column;
     align-items: center;
     border-radius: 20px;
+    box-shadow: 1px 1px 10px black;
 }
 
 #email p{
     margin: 1rem;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    background-color: rgb(14, 65, 85);
+    border-radius: 20px;
     padding: 1rem;
     width: fit-content
 }
 #email p span{
-    background-color: aqua;
+    background-color: rgb(2, 33, 52);
     padding:0.5rem 1rem;
+    color: rgb(195, 195, 57);
 }
 
 #video img{
