@@ -1,0 +1,17 @@
+#product{
+    /* width: 30%; */
+    margin: 2rem;
+    text-align: center;
+    line-height: 1.5;
+}
+
+#product img{
+    width: 22rem;
+    height: 18rem;
+    border: 4px solid black;
+}
+
+#product h3{
+    color: rgb(215, 215, 67);
+}
+
