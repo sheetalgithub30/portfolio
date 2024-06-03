@@ -1,0 +1,11 @@
+#project{
+    background-color: rgb(32, 98, 98);
+    border: 1px solid black;
+    width: 60vw;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    position: relative;
+    right: -8rem;
+    font-size: 1.2rem;
+    border-radius: 40px;
+}

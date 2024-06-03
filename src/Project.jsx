@@ -1,8 +1,14 @@
+import Navbar from "./Navbar"
+import './project.css'
 function Project(){
     return(
-     <>
-     <h1>Project</h1>
-     </>
+     <div id="project">
+      <div id="nav">
+        <h1>My Projects</h1>
+       <Navbar/>
+        </div>
+
+     </div>
     )
  }
  

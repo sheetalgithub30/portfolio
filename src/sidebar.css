@@ -1,13 +1,14 @@
 #sidebar{
     border: 1px solid black;
     background-color: rgb(29, 100, 100);
-    padding: 1rem;
+    padding: 1.5rem;
     line-height: 1.2;
     margin-right: 2rem;
-    width: 20vw;
-    /* position: fixed;
+    width: 16vw;
+    position: fixed;
     top:5rem;
-    left:20rem; */
+    left:8rem;
+    border-radius: 40px;
 }
 
 #top{
