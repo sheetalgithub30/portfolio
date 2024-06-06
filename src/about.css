@@ -47,8 +47,11 @@
 
 #about #languages{
   /* width: 25vw; */
+  background-color: rgb(25, 87, 110);
   display: flex;
   flex-wrap: wrap;
+  box-shadow: 1px 1px 10px black;
+  border-radius: 40px;
 }
 #about #languages h3{
    font-size: 1.6rem;
@@ -62,3 +65,44 @@
     font-size: 1.3rem;
     color: rgb(3, 34, 63);
 }
+#about #skills{
+    display: flex;
+    overflow-x: scroll;
+    margin: 4rem;
+    scroll-behavior: smooth;
+    background-color: rgb(25, 87, 110);
+    box-shadow: 1px 1px 10px black;
+}
+#skills::-webkit-scrollbar {
+    height: 5px;
+  }
+#skills::-webkit-scrollbar-thumb{
+    border-radius: 40px;       
+    border: 3px solid orange; 
+  }
+
+#about #skills img{
+    width: 15rem;
+    height: 15rem;
+    padding:2rem 0rem;
+    animation-name: flow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+#about #skills img:hover{
+    filter: drop-shadow(1px 1px 10px rgb(247, 247, 120));
+}
+
+@keyframes flow {
+    from{
+      transform: translate(1px);
+    }
+    to{
+       transform: translate(-90px);
+    }
+}
+
+
+

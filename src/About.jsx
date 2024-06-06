@@ -42,6 +42,16 @@ function About(){
           </h3>
 
         </div>
+
+        <h2>Development Skills</h2>
+        <div id="skills">
+          <img src="https://oktayshakirov.com/assets/images/html.png"></img>
+          <img src="https://oktayshakirov.com/assets/images/css.png"></img>
+          <img src="https://oktayshakirov.com/assets/images/java-script.png"></img>
+          <img src="https://oktayshakirov.com/assets/images/react.png"></img>
+          <img src="https://oktayshakirov.com/assets/images/git.png"></img>
+          <img src="https://oktayshakirov.com/assets/images/figma.png"></img>
+        </div>
      </div>
     )
  }
